@@ -38,7 +38,7 @@ void nilai(studentType arr[],int bsiswa){
                 arr[k].grade='B';
 
             }else{
-                 if (arr[k].testScore<60 ){
+                 if (arr[k].testScore<=60 ){
                 arr[k].grade='C';
 
             }
@@ -91,6 +91,7 @@ int main(){
     sijuara(student,nosiswa);
 
     
+
 
 
 };
